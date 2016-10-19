@@ -1,7 +1,7 @@
 # base-adapter
 Android 万能的Adapter for ListView,RecyclerView,GridView等，支持多种Item类型的情况。
 
-
+![image](https://github.com/HuangJAndroid/baseAdapter/raw/master/baseAdapter.gif)
 ## 引入
 
 ### ForRecyclerView
@@ -42,9 +42,7 @@ mRecyclerView.setAdapter(new CommonAdapter<String>(this, R.layout.item_list, mDa
 * ViewHolder中封装了大量的常用的方法，比如holder.setText(id,text)，holder.setOnClickListener(id,listener)等，可以支持使用。
 
 效果图：
-
 <img src="screenshot/single.png" width="320px"/>
-
 ##（2）多种ItemViewType(ListView与其使用方式一致)
 
 对于多中itemviewtype的处理参考：https://github.com/sockeqwe/AdapterDelegates ，具有极高的扩展性。
